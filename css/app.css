@@ -1,0 +1,202 @@
+.top-bar {
+	background-color: #fff;
+	height: 4rem;
+	padding-top: 1.25rem;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+
+.top-bar .menu {
+	background-color: #fff;
+}
+
+
+
+.menu-title {
+	font-weight: bold;
+
+}
+
+body {
+	font-family: "Courier New", Courier, monospace;
+	background-color: #222222;
+}
+
+a {
+	padding: 0;
+	color: #666;
+}
+
+a:hover {
+	color: #000;
+	font-weight: bold;
+}
+
+.container {
+	margin: 10rem auto;
+	margin-bottom: 0;
+	border: 2px solid #000;
+ 	background: #fff;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+
+.container p {
+	line-height: 1rem;
+	text-transform: lowercase;
+}
+
+.section-title {
+	background: #222;
+    height: 4rem;
+    border: 2px solid #fff;
+    position: relative;
+    top: -3rem;
+    margin: auto;
+}
+
+
+.section-title.about-title {
+	width: 200px;
+    margin-bottom: -1rem;
+}
+
+.section-title h2 {
+    text-align: center;
+    line-height: 4rem;
+    padding: 0;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.about span.emphasis {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+/*
+.portfolio-container {
+	margin: 3rem auto;
+	border: 2px solid #000;
+ 	background: #fff;
+    padding: 1rem 2rem 1rem 2rem;
+}*/
+
+.portfolio-title {
+    width: 350px;
+
+}
+
+.portfolio-content {
+	margin-bottom: 4rem;
+}
+
+.portfolio-content img {
+	max-width: 90%;
+	max-height: 90%;
+	display: block;
+	margin: 0 auto;
+}
+
+.contact-title {
+	width: 250px;
+}
+
+form {
+	margin: 0 auto;
+	margin-left: 3rem; 
+	padding-bottom: 1.5rem;
+}
+
+input, textarea {
+    border-top: transparent !important;
+    border-left: transparent !important;
+    border-right: transparent !important;
+    border-bottom: 2px solid !important;
+    box-shadow: none !important;
+}
+
+input[type='text']:focus, input[type='email']:focus, textarea:focus {
+	background-color: #eee !important;
+	transition:all .3s ease-in-out;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #999; }
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #999; }
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #999; }
+
+input::placeholder,
+textarea::placeholder {
+  color: #999; }
+
+.message-box {
+	min-height: 5rem;
+}
+
+input[type='submit'] {
+	background-color: #222;
+	color: #fff;
+	font-weight: bold;
+	width: 100%;
+}
+
+input[type='submit']:focus, input[type='submit']:hover {
+	background-color: #777 !important;
+	color: #000;
+	outline: none;
+	box-shadow: none;
+	border: none !important;
+	transition:all .3s ease-in-out;
+}
+
+.section-contact {
+	margin-bottom: 10rem;
+}
+
+.contact-form .columns {
+	padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.section-contact p {
+	margin-bottom: 3rem;
+}
+
+.section-contact .menu {
+	text-align: center;
+}
+
+.section-contact .menu li {
+	padding: none;
+	margin: none;
+}
+
+.section-contact .icon {
+	opacity: 1;
+	transition:all .3s ease-in-out;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.section-contact .icon:hover, .section-contact .icon:focus {
+	opacity: 0.5;
+}
+
+footer {
+	height: 2rem;
+	line-height: 2rem;
+	background-color: #fff;
+	font-size: 0.8rem;
+	text-align: center;
+	padding-bottom: 0.2rem;
+}
